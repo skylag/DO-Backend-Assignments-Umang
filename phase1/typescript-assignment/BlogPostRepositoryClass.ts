@@ -1,4 +1,4 @@
-class BlogPostRepository{
+export class BlogPostRepository{
     save(BP1 : BlogPost) : Promise<{}>{
         return new Promise((resolve: any, reject : any) => {
             setTimeout(() => {
